@@ -64,3 +64,5 @@ echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sou
 sudo apt-get update && sudo apt-get install -yq spotify-client
 
 sudo usermod -a -G dialout $USER
+
+sudo apt install -yq texlive-full texstudio
